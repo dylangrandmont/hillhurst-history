@@ -1,6 +1,6 @@
 let index = 1;
 
-const backgrounds = {'index': 'engraving.png', 'owners': 'map-1911.png'};
+const backgrounds = {'index': 'engraving.png', 'boom': 'map-1911.png', 'interwar': 'fire-insurance.jpg'};
 
 let observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
