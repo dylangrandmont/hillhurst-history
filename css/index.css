@@ -22,7 +22,7 @@ body {
     align-items: center;
     flex-direction: column-reverse;
     justify-content: flex-start;
-    background-image: linear-gradient( to bottom, transparent, #A29B8A ), url('../img/engraving.png');
+    background-image: linear-gradient( to bottom, transparent, #A29B8A 80%), url('../img/engraving.png');
     background-position-x: center;
 }
 .bookend > .tag {
@@ -33,6 +33,14 @@ body {
     align-self: flex-end;
     margin: 8px;
 }
+.bookend > h1 {
+    color: white;
+    font-size: xxx-large;
+}
+.bookend > h2 {
+    color: white;
+}
+
 #index {
     margin-top: 20vh;
 }
