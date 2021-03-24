@@ -19,7 +19,7 @@
             content: '';
             position: absolute;
             width: 6px;
-            background-color: white;
+            background-color: var(--secondary-color);
             top: 0;
             bottom: 0;
             left: 50%;
@@ -40,8 +40,8 @@
             height: 25px;
             right: -17px;
             background-color: white;
-            border: 4px solid #8A91A2;
-            top: 15px;
+            border: 4px solid var(--secondary-color);
+            top: 35px;
             border-radius: 50%;
             z-index: 1;
         }
@@ -58,26 +58,26 @@
             content: " ";
             height: 0;
             position: absolute;
-            top: 22px;
+            top: 42px;
             width: 0;
             z-index: 1;
             right: 30px;
-            border: medium solid white;
+            border: medium solid var(--secondary-color);
             border-width: 10px 0 10px 10px;
-            border-color: transparent transparent transparent white;
+            border-color: transparent transparent transparent var(--secondary-color);
         }
 
         .right::before {
             content: " ";
             height: 0;
             position: absolute;
-            top: 22px;
+            top: 42px;
             width: 0;
             z-index: 1;
             left: 30px;
-            border: medium solid white;
+            border: medium solid var(--secondary-color);
             border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
+            border-color: transparent var(--secondary-color) transparent transparent;
         }
 
         .right::after {
@@ -88,7 +88,9 @@
             padding: 8px 16px;
             background-color: white;
             position: relative;
-            border-radius: 0px;
+            border-width: 2px;
+            border-style: solid;
+            border-color: var(--secondary-color);
         }
 
         @media screen and (max-width: 600px) {
@@ -186,9 +188,7 @@
                 It is but one branch of a story which is weaved together by many places and many peoples.
                 This is a history of Calgary, as told through My Home.
             </p>
-        </div>
 
-        <div class="text-box">
             <h3>Foreword</h3>
             <p>
                 First, a disclaimer and some context which might make this story easier to understand.
@@ -379,7 +379,7 @@
         </div>
 
         <div class="bookend"
-            style="background-image: linear-gradient( to bottom, #A29B8A, transparent, #A29B8A ), url('img/map-1911.png');">
+            style="background-image: linear-gradient( to bottom, var(--primary-color), transparent, var(--primary-color) ), url('img/map-1911.png');">
             <div class="tag">1911-1912 City plan</div>
         </div>
 
@@ -752,7 +752,7 @@
         </div>
 
         <div class="bookend"
-            style="background-image: linear-gradient( to bottom, #A29B8A, transparent, #A29B8A ), url('img/fire-insurance.jpg');">
+            style="background-image: linear-gradient( to bottom, var(--primary-color), transparent, var(--primary-color) ), url('img/fire-insurance.jpg');">
             <div class="tag">Fire Insurance Map, 1910s</div>
         </div>
 
@@ -797,7 +797,7 @@
         </div>
 
         <div class="bookend"
-            style="background-image: linear-gradient( to bottom, #A29B8A, transparent, #A29B8A ), url('img/city-map-1913.png');">
+            style="background-image: linear-gradient( to bottom, var(--primary-color), transparent, var(--primary-color) ), url('img/city-map-1913.png');">
             <div class="tag">City Map, 1913</div>
         </div>
 
@@ -938,9 +938,7 @@
                     little thought and hopefuly, the preservation of enough of the old landmarks to remind us of what
                     things used to be like.
                 </blockquote>
-            </div>
 
-            <div class="text-box">
                 <h3>Further Reading and Sources</h3>
                 <ol>
                     <li>
