@@ -1,0 +1,10 @@
+{
+  "name": "hillhurst-history",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository": "git@github.com:dylangrandmont/hillhirst-history.git",
+  "author": "dylangrandmont <dylan.grandmont@gmail.com>",
+  "dependencies": {
+    "@lhci/cli": "0.7.x"
+  }
+}
