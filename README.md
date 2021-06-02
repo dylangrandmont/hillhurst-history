@@ -1,5 +1,7 @@
-# hillhurst-history
+# calgary-history
 
 Content site for local history and a historical essay.
 
-Hosted on Github Pages: https://dylangrandmont.github.io/hillhurst-history/
+Essays / Articles
+1. [The House That Foster Built](https://dylangrandmont.github.io/calgary-history/house-that-foster-built.html)
+1. [A School By Any Other Name](https://dylangrandmont.github.io/calgary-history/langevin-school.html)

@@ -5,6 +5,10 @@
   "repository": "git@github.com:dylangrandmont/hillhirst-history.git",
   "author": "dylangrandmont <dylan.grandmont@gmail.com>",
   "dependencies": {
-    "@lhci/cli": "0.7.x"
+    "@lhci/cli": "0.7.x",
+    "http-server": "^0.12.3"
+  },
+  "scripts": {
+    "dev": "http-server"
   }
 }
